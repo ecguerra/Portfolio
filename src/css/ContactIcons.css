@@ -1,0 +1,16 @@
+.icon-container {
+    width: 60%;
+}
+
+.icon-list {
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icon-list a:any-link {
+    color: var(--neutral-pop);
+}

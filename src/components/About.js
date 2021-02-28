@@ -1,25 +1,24 @@
-import { FaGithub, FaLinkedin } from 'react-icons/fa'
-import { MdEmail, MdFileDownload } from 'react-icons/md'
+import Contact from './common/Contact'
+import ContactIcons from './common/ContactIcons'
 
+import '../css/About.css'
 
 const About = () => {
     return (
-        <div>
-            <div>
+        <div className='split-container'>
+            <div className='left'>
                 <h1>About Me</h1>
-                <p>
-                    I am a challenge-loving, creative problem solver who wants to leave the world a better place than how I found it. As a software engineer, I thrive in environments where my input is valued and I can be part of building something bigger than myself.
-                </p>
-                <div>
-                    <ul>
-                        <li><a target='_blank' href='https://github.com/ecguerra'><FaGithub /></a></li>
-                        <li><a target='_blank' href='https://www.linkedin.com/in/elizabethcguerra/'><FaLinkedin /></a></li>
-                        <li><a href='#'><MdEmail /></a></li>
-                        <li><a href='#'><MdFileDownload /></a></li>
-                    </ul>
-                </div>
+                <p>I am a full-stack web developer with a background in data analysis and visualization. 
+                I find that both web development and data analysis are like solving a jigsaw puzzle: Starting with small, disparate pieces that are messy and chaotic,
+                but then finding connections and order, until finally creating the big picture, where it all fits together.</p>
+                <p>I like to solve puzzles. I like to find the order in the chaos. I want to be part of the bigger picture.</p>
+                <Contact />
             </div>
-
+            <div className='right'>
+                <h1>Elizabeth Guerra</h1>
+                <h3>Boston, MA | Anywhere</h3>
+                <ContactIcons />
+            </div>
         </div>
     )
 }

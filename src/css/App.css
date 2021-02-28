@@ -1,0 +1,21 @@
+:root {
+    --main: #841345;
+    --accent1: #26B0D5;
+    --accent2: #88B918;
+    --pop: #FF809D;
+    --neutral-dk: #41423E;
+    --neutral-lt: #e6e2d6;
+    --neutral-pop: whitesmoke;
+}
+
+html, body {
+    background-color: var(--neutral-lt);
+    height: 100vh;
+    font-family: 'Lato', sans-serif;
+}
+
+a:any-link {
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
