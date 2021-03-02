@@ -1,4 +1,5 @@
 import Skills from './Skills'
+import Contact from './common/Contact'
 
 import '../css/Home.css'
 
@@ -24,6 +25,7 @@ const Home = () => {
                         </div>
                     </div>
             <Skills />
+            <Contact />
         </div>
     )
 }

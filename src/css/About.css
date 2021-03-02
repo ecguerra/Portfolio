@@ -8,6 +8,27 @@
     width: 65%;
     height: 100%;
     padding: 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 80%;
+}
+
+.about-container h1 {
+    margin: 0 0 1.5rem 0;
+}
+
+.about-container p {
+    margin: 0.8rem;
+    font-size: 1.1rem;
 }
 
 .right {
