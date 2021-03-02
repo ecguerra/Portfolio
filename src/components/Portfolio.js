@@ -1,6 +1,7 @@
 import { FaHtml5, FaGithub, FaNodeJs, FaReact, FaPython } from 'react-icons/fa'
 import { VscGithub} from 'react-icons/vsc'
 import { SiPostgresql, SiMongodb, SiFlask, SiJavascript } from 'react-icons/si'
+import { TiArrowRightThick} from 'react-icons/ti'
 
 import '../css/Portfolio.css'
 
@@ -18,7 +19,12 @@ const Portfolio = () => {
                         <p>Users play as a rambunctious kitten named Cora and have to discover the correct order to break everything in the room by learning from their previous attempts.</p>
                     </div>
                     <div className='card-bottom'>
-                        <a target='_blank' rel='noreferrer' href='https://github.com/ecguerra/Bruno-ElizabethGuerra_P1'><FaGithub /></a>
+                        <div className='git-links'>
+                            <a target='_blank' rel='noreferrer' href='https://github.com/ecguerra/Bruno-ElizabethGuerra_P1'><FaGithub /></a>
+                        </div>
+                        <div className='go-btn'>
+                            <a target='_blank' rel='noreferrer' href='https://ecguerra.github.io/Bruno-ElizabethGuerra_P1/index.html'>Visit</a>
+                        </div>
                     </div>
                 </div>
                 <div className='card'>
@@ -30,7 +36,12 @@ const Portfolio = () => {
                         <p>Users create their virtual closets and are able to search for nearby homeless shelters to donate items they no longer want.</p>
                     </div>
                     <div className='card-bottom'>
-                        <a target='_blank' rel='noreferrer' href='https://github.com/ecguerra/Project_2_GA'><FaGithub /></a>
+                        <div className='git-links'>
+                            <a target='_blank' rel='noreferrer' href='https://github.com/ecguerra/Project_2_GA'><FaGithub /></a>
+                        </div>
+                        <div className='go-btn'>
+                            <a target='_blank' rel='noreferrer' href='https://decloset.herokuapp.com/'>Visit</a>
+                        </div>
                     </div>
                 </div>
                 <div className='card'>
@@ -42,8 +53,13 @@ const Portfolio = () => {
                         <p>A dashboard where users can search and save locations to view and monitor Covid-19 statistics pulled live from an API.</p>
                     </div>
                     <div className='card-bottom'>
-                        <a target='_blank' rel='noreferrer' href='https://github.com/ecguerra/team-6-frontend'><FaGithub /></a>{' '}
-                        <a target='_blank' rel='noreferrer' href='https://github.com/ecguerra/Team-6-backend'><VscGithub /></a> 
+                        <div className='git-links'>
+                            <a target='_blank' rel='noreferrer' href='https://github.com/ecguerra/team-6-frontend'><FaGithub /></a>{' '}
+                            <a target='_blank' rel='noreferrer' href='https://github.com/ecguerra/Team-6-backend'><VscGithub /></a> 
+                        </div>
+                        <div className='go-btn'>
+                            <a target='_blank' rel='noreferrer' href='https://cov-id.netlify.app/'>Visit</a>
+                        </div>
                     </div>
                 </div>
                 <div className='card'>
@@ -55,8 +71,13 @@ const Portfolio = () => {
                         <p>A webtool where users can select colors and save them to palettes for their own projects</p>
                     </div>
                     <div className='card-bottom'>
-                        <a target='_blank' rel='noreferrer' href='https://github.com/ecguerra/Project_4_frontend'><FaGithub /></a> {' '}
-                        <a target='_blank' rel='noreferrer' href='https://github.com/ecguerra/Project_4_backend'><VscGithub /></a> {' '}
+                        <div className='git-links'>
+                            <a target='_blank' rel='noreferrer' href='https://github.com/ecguerra/Project_4_frontend'><FaGithub /></a> {' '}
+                            <a target='_blank' rel='noreferrer' href='https://github.com/ecguerra/Project_4_backend'><VscGithub /></a> {' '}
+                        </div>
+                        <div className='go-btn'>
+                            <a target='_blank' rel='noreferrer' href='https://palettetown.netlify.app/'>Visit</a>
+                        </div>
                     </div>
                 </div>
             </div>
