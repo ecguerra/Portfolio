@@ -17,12 +17,12 @@ const About = () => {
                     <p>I love a good challenge and working with good people. Technology connects us in ways we never before thought possible. Let's work together to build something great.</p>
                 </div>
                 <Skills />
-                <Contact />
             </div>
             <div className='right'>
                 <h1>Elizabeth Guerra</h1>
                 <h3>Boston, MA | Anywhere</h3>
                 <ContactIcons />
+                <Contact />
             </div>
         </div>
     )
