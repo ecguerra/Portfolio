@@ -1,4 +1,4 @@
 # Elizabeth Guerra
 ## Full-Stack Developer
 
-# [My Portfolio](elizabeth-guerra.com)
+# [My Portfolio](http://elizabeth-guerra.com)
