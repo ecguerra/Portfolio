@@ -6,7 +6,7 @@ const Contact = () => {
 
     const sendEmail = e => {
         e.preventDefault()
-        emailjs.sendForm('service_hzaiy9f','template_gn5tspp', e.target, 'user_DDm4ulPdnI4IJHeDenDJk')
+        emailjs.sendForm('service_hzaiy9f','template_82w3pqg', e.target, 'user_DDm4ulPdnI4IJHeDenDJk')
         .then(response => {
             console.log(response)
             window.location.reload()
