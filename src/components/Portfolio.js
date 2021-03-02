@@ -1,7 +1,6 @@
 import { FaHtml5, FaGithub, FaNodeJs, FaReact, FaPython } from 'react-icons/fa'
 import { VscGithub} from 'react-icons/vsc'
 import { SiPostgresql, SiMongodb, SiFlask, SiJavascript } from 'react-icons/si'
-import { TiArrowRightThick} from 'react-icons/ti'
 
 import '../css/Portfolio.css'
 

@@ -1,19 +1,9 @@
-:root {
-    --main: #841345;
-    --accent1: #26B0D5;
-    --accent2: #88B918;
-    --pop: #FF809D;
-    --neutral-dk: #41423E;
-    --neutral-lt: #e6e2d6;
-    --neutral-pop: whitesmoke;
-}
-
 .portfolio-container {
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
     padding: 3rem 2rem;
 }
 

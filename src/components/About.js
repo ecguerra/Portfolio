@@ -1,3 +1,4 @@
+import Skills from './Skills'
 import Contact from './common/Contact'
 import ContactIcons from './common/ContactIcons'
 
@@ -12,6 +13,7 @@ const About = () => {
                 I find that both web development and data analysis are like solving a jigsaw puzzle: Starting with small, disparate pieces that are messy and chaotic,
                 but then finding connections and order, until finally creating the big picture, where it all fits together.</p>
                 <p>I like to solve puzzles. I like to find the order in the chaos. I want to be part of the bigger picture.</p>
+                <Skills />
                 <Contact />
             </div>
             <div className='right'>

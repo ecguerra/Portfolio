@@ -1,0 +1,31 @@
+:root {
+    --main: #841345;
+    --accent1: #26B0D5;
+    --accent2: #88B918;
+    --pop: #FF809D;
+    --neutral-dk: #41423E;
+    --neutral-lt: #e6e2d6;
+    --neutral-pop: whitesmoke;
+}
+
+.skills-container {
+    width: 100%;
+    padding: 1rem 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.list-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 2rem 0;
+}
+
+.skill-list ul {
+    list-style: none;
+    margin: 0.5rem 0;
+}
