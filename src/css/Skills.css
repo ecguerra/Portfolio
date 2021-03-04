@@ -1,13 +1,3 @@
-:root {
-    --main: #841345;
-    --accent1: #26B0D5;
-    --accent2: #88B918;
-    --pop: #FF809D;
-    --neutral-dk: #41423E;
-    --neutral-lt: #e6e2d6;
-    --neutral-pop: whitesmoke;
-}
-
 .skills-container {
     width: 100%;
     padding: 1rem 3rem;

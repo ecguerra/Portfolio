@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import Skills from './Skills'
 import Contact from './common/Contact'
 
@@ -25,6 +26,7 @@ const Home = () => {
                         </div>
                     </div>
             <Skills />
+            <Link to='/portfolio' className='portfolio-btn'>See My Work</Link>
             <Contact />
         </div>
     )
