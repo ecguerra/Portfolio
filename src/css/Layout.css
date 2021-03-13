@@ -7,7 +7,11 @@ nav {
     align-items: center;
     position: sticky;
     top: 0;
-    z-index: 999;
+    z-index: 989;
+}
+
+.nav-link {
+    display: flex;
 }
 
 .nav-link a:any-link {
@@ -22,3 +26,61 @@ nav {
     color: var(--neutral-pop);
     padding: 1rem;
 }
+
+.mobile-menu {
+    display: none;
+}
+
+
+@media (max-width: 860px) {
+    .logo {
+        width: 100%;
+    }
+
+    .logo a:any-link {
+        font-size: 1.4rem;
+        padding: 0.5rem;
+    }
+
+    .nav-link {
+        display: none;
+    }
+    
+    .nav-link.active {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 4rem;
+        width: 100%;
+        z-index: 990;
+        background-color: var(--pop);
+    }
+    
+    .nav-link a:any-link {
+        color: var(--neutral-pop);
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-link a:hover {
+        color: var(--main);
+        transition: 0.2s;
+    }
+
+    .mobile-menu {
+        display: block;
+        background-color: var(--neutral-dk);
+        padding: 0.5rem;
+    }
+
+    .menu-icon {
+        color: var(--pop);
+        font-size: 1.3rem;
+        z-index: 999;
+    }
+
+    .menu-icon.open {
+        color: var(--neutral-pop);
+    }
+  }
