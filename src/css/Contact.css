@@ -55,6 +55,7 @@ input[type=submit]:hover{
 @media (max-width: 860px) {
 
     input[type=submit] {
+        -webkit-appearance: none;
         width: 25%;
     }
 

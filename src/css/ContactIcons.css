@@ -28,3 +28,12 @@
 .icon-list a:any-link {
     color: var(--neutral-pop);
 }
+
+@media (max-width: 860px) {
+    .info-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}

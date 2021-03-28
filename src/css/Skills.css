@@ -23,14 +23,15 @@
 
 @media (max-width: 860px) {
     .skills-container {
-        padding: 1rem;
+        padding: 3rem;
+        margin: 0;
     }
-    
+
     .list-container {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        margin: 2rem 0 2rem 5rem;
+        margin: 2rem 0;
     }
 
     h2 {
@@ -38,7 +39,7 @@
     }
 
     .skill-list {
-        width: 50%;
+        width: 45%;
         margin: 1rem 0;
     }
 }
