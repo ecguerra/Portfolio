@@ -49,8 +49,18 @@ input[type=submit]:hover{
     background-color: var(--neutral-pop);
     /* border: 0.15rem solid var(--pop); */
     color: var(--pop);
+    transition: 0.2s;
 }
 
+@media (max-width: 860px) {
 
+    input[type=submit] {
+        width: 25%;
+    }
+
+    input, textarea, label {
+        width: 70%;
+    }
+}
 
 
