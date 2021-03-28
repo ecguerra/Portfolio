@@ -49,7 +49,7 @@
     flex-direction: column;
     justify-content: center;
     align-content: flex-start;
-    width: 50%;
+    width: 75%;
     height: 100%;
     z-index: 0;
 }
@@ -105,4 +105,34 @@
 .portfolio-btn:hover {
     background-color: var(--neutral-pop);
     color: var(--main);
+}
+
+@media (max-width: 860px) {
+    .main {
+        height: 40vh;
+    }
+
+    .main h1 {
+        font-size: 2.8rem;
+        width: 100%;
+    }
+
+    .main h2 {
+        font-size: 1.8rem;
+    }
+
+    .brand {
+        font-size: 1rem;
+        padding: 1.2rem;
+    }
+
+    .brand p {
+        margin: 0.5rem;
+    }
+
+    .portfolio-btn {
+        width: 55%;
+        margin: 2rem 0 4rem 0;
+    }
+
 }
