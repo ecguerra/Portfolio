@@ -20,3 +20,25 @@
     margin: 0.5rem 0;
     color: var(--main);
 }
+
+@media (max-width: 860px) {
+    .skills-container {
+        padding: 1rem;
+    }
+    
+    .list-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 2rem 0 2rem 5rem;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    .skill-list {
+        width: 50%;
+        margin: 1rem 0;
+    }
+}
