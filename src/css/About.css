@@ -33,7 +33,7 @@
 
 .right {
     width: 35%;
-    height: 100%;
+    /* height: 100%; */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -58,6 +58,7 @@
     .split-container {
         display: flex;
         flex-direction: column;
+        height: 200vh;
     }
 
     .left {

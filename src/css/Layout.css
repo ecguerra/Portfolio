@@ -75,12 +75,12 @@ nav {
     }
 
     .menu-icon {
-        color: var(--pop);
+        color: var(--neutral-pop);
         font-size: 1.3rem;
         z-index: 999;
     }
 
     .menu-icon.open {
-        color: var(--neutral-pop);
+        color: var(--pop);
     }
   }
