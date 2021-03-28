@@ -4,7 +4,8 @@
 # [My Portfolio](http://elizabeth-guerra.com)
 #### Photo credit (Homepage): Me, taken at the ICA in Boston, MA
 
-## Mobile/responsive site in progress!
+## Updates
+* 3/28/2021 - Responsive site v1
 
 ## Acknowledgements
-* https://sdever.medium.com/building-a-responsive-navigation-bar-with-react-css-d9b30af03c20 for responsive help
+* [Sean Deaver](https://sdever.medium.com/building-a-responsive-navigation-bar-with-react-css-d9b30af03c20) for responsive help

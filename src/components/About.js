@@ -19,8 +19,6 @@ const About = () => {
                 <Skills />
             </div>
             <div className='right'>
-                <h1>Elizabeth Guerra</h1>
-                <h3>Boston, MA | Anywhere</h3>
                 <ContactIcons />
                 <Contact />
             </div>

@@ -16,22 +16,28 @@ const ContactIcons = () => {
     const combined = `${p6}${p7}${p8}${p1}${p3}${p4}${p5}`
 
     return(
-        <div className='icon-container'>
-            <ul className='icon-list'>
-                <li><a target='_blank' rel='noreferrer' href='https://github.com/ecguerra'><FaGithub /></a></li>
-                <li><a target='_blank' rel='noreferrer' href='https://www.linkedin.com/in/elizabethcguerra/'><FaLinkedin /></a></li>
-                <li>
-                    <a href={combined}>
-                        <MdEmail />
-                    </a>
-                </li>
-                <li>
-                    <a target='_blank' rel='noreferrer' href='https://drive.google.com/file/d/15IBPIG_kuU1ebggoxmcRoh1ro5QrgAg0/view?usp=sharing'>
-                        <MdFileDownload />
-                    </a>
-                </li>
-            </ul>
-        </div>
+        <>
+            <div className='info-container'>
+                <h1>Elizabeth Guerra</h1>
+                <h3>Boston, MA | Anywhere</h3>
+            </div>
+            <div className='icon-container'>
+                <ul className='icon-list'>
+                    <li><a target='_blank' rel='noreferrer' href='https://github.com/ecguerra'><FaGithub /></a></li>
+                    <li><a target='_blank' rel='noreferrer' href='https://www.linkedin.com/in/elizabethcguerra/'><FaLinkedin /></a></li>
+                    <li>
+                        <a href={combined}>
+                            <MdEmail />
+                        </a>
+                    </li>
+                    <li>
+                        <a target='_blank' rel='noreferrer' href='https://drive.google.com/file/d/15IBPIG_kuU1ebggoxmcRoh1ro5QrgAg0/view?usp=sharing'>
+                            <MdFileDownload />
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </>
     )
 }
 
