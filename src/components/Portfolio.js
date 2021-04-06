@@ -1,4 +1,4 @@
-import { FaHtml5, FaGithub, FaNodeJs, FaReact, FaPython } from 'react-icons/fa'
+import { FaHtml5, FaGithub, FaNodeJs, FaReact, FaPython, FaSass } from 'react-icons/fa'
 import { VscGithub} from 'react-icons/vsc'
 import { SiPostgresql, SiMongodb, SiFlask, SiJavascript } from 'react-icons/si'
 
@@ -9,6 +9,23 @@ const Portfolio = () => {
         <div className='portfolio-container'>
             <h1>Portfolio</h1>
             <div className='card-container'>
+            <div className='card'>
+                    <div className='card-top'>
+                        <a target='_blank' rel='noreferrer' href='https://blerg.netlify.app/'><h2>Blerg! (in progress)</h2></a>
+                    </div>
+                    <div className='card-middle'>
+                        <div className='stack-icons'><FaReact />{' '}<FaSass /></div>
+                        <p>A blogging site for people prone to starting blogs and then abandoning them after a few entries.</p>
+                    </div>
+                    <div className='card-bottom'>
+                        <div className='git-links'>
+                            <a target='_blank' rel='noreferrer' href='https://github.com/ecguerra/blerg_frontend'><FaGithub /></a>
+                        </div>
+                        <div className='go-btn'>
+                            <a target='_blank' rel='noreferrer' href='https://blerg.netlify.app/'>Visit</a>
+                        </div>
+                    </div>
+                </div>
                 <div className='card'>
                     <div className='card-top'>
                         <a target='_blank' rel='noreferrer' href='https://ecguerra.github.io/Bruno-ElizabethGuerra_P1/index.html'><h2>Cora Destroys Everything!</h2></a>
