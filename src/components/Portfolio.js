@@ -53,7 +53,7 @@ const Portfolio = () => {
                     </div>
                     <div className='card-bottom'>
                         <div className='git-links'>
-                            <a target='_blank' rel='noreferrer' href='https://github.com/ecguerra/Project_2_GA'><FaGithub /></a>
+                            <a target='_blank' rel='noreferrer' href='https://github.com/ecguerra/Decloset'><FaGithub /></a>
                         </div>
                         <div className='go-btn'>
                             <a target='_blank' rel='noreferrer' href='https://decloset.herokuapp.com/'>Visit</a>
@@ -70,8 +70,8 @@ const Portfolio = () => {
                     </div>
                     <div className='card-bottom'>
                         <div className='git-links'>
-                            <a target='_blank' rel='noreferrer' href='https://github.com/ecguerra/team-6-frontend'><FaGithub /></a>{' '}
-                            <a target='_blank' rel='noreferrer' href='https://github.com/ecguerra/Team-6-backend'><VscGithub /></a> 
+                            <a target='_blank' rel='noreferrer' href='https://github.com/ecguerra/COV-ID-frontend'><FaGithub /></a>{' '}
+                            <a target='_blank' rel='noreferrer' href='https://github.com/ecguerra/COV-ID-backend'><VscGithub /></a> 
                         </div>
                         <div className='go-btn'>
                             <a target='_blank' rel='noreferrer' href='https://cov-id.netlify.app/'>Visit</a>
@@ -88,8 +88,8 @@ const Portfolio = () => {
                     </div>
                     <div className='card-bottom'>
                         <div className='git-links'>
-                            <a target='_blank' rel='noreferrer' href='https://github.com/ecguerra/Project_4_frontend'><FaGithub /></a> {' '}
-                            <a target='_blank' rel='noreferrer' href='https://github.com/ecguerra/Project_4_backend'><VscGithub /></a> {' '}
+                            <a target='_blank' rel='noreferrer' href='https://github.com/ecguerra/Palette_Town_frontend'><FaGithub /></a> {' '}
+                            <a target='_blank' rel='noreferrer' href='https://github.com/ecguerra/Palette_Town_backend'><VscGithub /></a> {' '}
                         </div>
                         <div className='go-btn'>
                             <a target='_blank' rel='noreferrer' href='https://palettetown.netlify.app/'>Visit</a>
