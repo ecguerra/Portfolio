@@ -11,6 +11,23 @@ const Portfolio = () => {
             <div className='card-container'>
             <div className='card'>
                     <div className='card-top'>
+                        <a target='_blank' rel='noreferrer' href='https://number-chompers.netlify.app/'><h2>Number Chompers</h2></a>
+                    </div>
+                    <div className='card-middle'>
+                        <div className='stack-icons'><FaHtml5 />{' '}<SiJavascript /></div>
+                        <p>A take on the 80s & 90s children's game Number Munchers using HTML5 Canvas and Javascript</p>
+                    </div>
+                    <div className='card-bottom'>
+                        <div className='git-links'>
+                            <a target='_blank' rel='noreferrer' href='https://github.com/ecguerra/Number_Chompers'><FaGithub /></a>
+                        </div>
+                        <div className='go-btn'>
+                            <a target='_blank' rel='noreferrer' href='https://number-chompers.netlify.app/'>Visit</a>
+                        </div>
+                    </div>
+                </div>
+            <div className='card'>
+                    <div className='card-top'>
                         <a target='_blank' rel='noreferrer' href='https://blerg.netlify.app/'><h2>Blerg! (in progress)</h2></a>
                     </div>
                     <div className='card-middle'>
