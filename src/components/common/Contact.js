@@ -22,11 +22,11 @@ const Contact = () => {
             <form className='contact-form' onSubmit={sendEmail}>
                 <input type='hidden' name='contact-number' />
                 <label htmlFor='userName'>Your Name</label>
-                <input type='text' name='userName' />
+                <input type='text' name='userName' id='userName'/>
                 <label htmlFor='userEmail'>Your Email</label>
-                <input type='email' name='userEmail' />
+                <input type='email' name='userEmail' id='userEmail'/>
                 <label htmlFor='message'>Your Message</label>
-                <textarea name='message'></textarea>
+                <textarea name='message' id='message'></textarea>
                 <input type='submit' value='Send'/>
             </form>
         </div>

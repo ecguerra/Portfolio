@@ -15,7 +15,7 @@ const Portfolio = () => {
                     </div>
                     <div className='card-middle'>
                         <div className='stack-icons'><FaHtml5 />{' '}<SiJavascript /></div>
-                        <p>A take on the 80s & 90s children's game Number Munchers using HTML5 Canvas and Javascript. Created for the Aug/Sept 2021 Mintbean Hiring Hackathon "2D Game."</p>
+                        <p>A take on the 80s & 90s children's game Number Munchers using HTML5 Canvas and Javascript. Created for the Aug/Sept 2021 Mintbean Hiring Hackathon "2D Game." Received a MintBean Star award.</p>
                     </div>
                     <div className='card-bottom'>
                         <div className='git-links'>
